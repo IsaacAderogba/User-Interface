@@ -64,3 +64,109 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+h1 {
+	font-size: 50px;
+	width: 50px;
+	text-align: center;
+	margin: 20px;
+}
+
+/* */
+.navigation {
+	color: grey;
+	padding: 0px 40px;
+}
+
+
+
+body {
+	padding: 50px;
+}
+
+footer {
+	padding: 50px;
+	text-align: center;
+}
+
+hr {
+	margin: 20px 0px;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+/**/
+.logo {
+	float: right;
+	
+}
+
+.nav-item {
+	padding: 15px 15px;
+	color: grey;
+	text-decoration: none;
+}
+
+.cta-button {
+	padding: 10px 40px;
+	background: white;
+	border: 1px solid gray;
+	margin: 10px;
+	border-radius: 5px;
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+}
+
+.left-header {
+	width: 50%;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.right-header {
+	width: 50%;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.column-1 {
+	padding: 0 15px 0 0;
+	width: 47%;
+	display: inline-block;
+}
+
+.column-2 {
+	padding: 0 0 0 15px;
+	width: 47%;
+	display: inline-block;
+}
+
+.column-3 {
+	padding: 0 10px 0 0;
+	width: 33%;
+	display: inline-block;
+}
+
+.column-4 {
+	padding: 0 5px 0 5px;
+	width: 33%;
+	display: inline-block;
+}
+
+.column-5 {
+	padding: 0 0 0 10px;
+	width: 33%;
+	display: inline-block;
+}
+
+.bottom-content {
+	margin: 40px 0;
+}
+
+.top-content {
+	margin: 40px 0;
+}
+
