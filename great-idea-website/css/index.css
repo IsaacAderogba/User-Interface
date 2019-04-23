@@ -81,7 +81,8 @@ h1 {
 
 
 body {
-	padding: 50px;
+	width: 876px;
+	margin: 50px;
 }
 
 footer {
@@ -121,17 +122,21 @@ hr {
 	text-decoration: none;
 }
 
+.hero {
+	width: 100%;
+}
+
 .left-header {
-	padding: 0 15px 0 0;
-	width: 40%;
+	/* padding: 0 15px 0 0; */
+	width: 50%;
 	display: inline-block;
 	margin: 0 auto;
 	text-align: center;
 }
 
 .right-header {
-	padding: 0 0 0 15px;
-	width: 30%;
+	/* padding: 0 0 0 15px; */
+	width: 50%;
 	display: inline-block;
 	margin: 0 auto;
 }
