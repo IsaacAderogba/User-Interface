@@ -58,9 +58,138 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+	/* font-family: 'Bangers', cursive; */
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+h1 {
+	font-size: 70px;
+	font-family: 'Bangers', cursive;
+}
+
+.hero-text {
+	margin: 30px 70px;
+	text-align: center;
+}
+
+.nav {
+	background: lightgreen;
+	color: grey;
+	padding: 20px 40px;
+	position: fixed;
+	top: 0;
+	width: 876px;
+}
+
+body {
+	width: 876px;
+	margin: 50px;
+}
+
+footer {
+	margin: 50px;
+	text-align: center;
+}
+
+hr {
+	margin: 20px 0px;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+/**/
+.logo {
+	margin: -10px 0 0 0;
+	float: right;
+	
+}
+
+.nav-item {
+	padding: 3%;
+	color: grey;
+	text-decoration: none;
+}
+
+.cta-button {
+	margin: 10px 100px 20px 100px;;
+	padding: 10px;
+	background: white;
+	border: 1px solid gray;
+	border-radius: 5px;
+	color: black;
+	text-decoration: none;
+	display: block;
+}
+
+.hero {
+	margin: 20px auto;
+	height: 450px;
+	width: 876px;
+	text-align: center;
+}
+
+
+.left-hero {
+	height: 400px;
+	width: 49%;
+	display: inline-block;
+	text-align: center;
+	padding: 50px 0;
+	margin: 0px 0px 30px 0;
+}
+
+.right-hero {
+	background-image: url(../img/header-img.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	height: 400px;
+	width: 49%;
+	display: inline-block;
+	text-align: center;
+}
+
+.column-1 {
+	padding: 0 15px 0 0;
+	width: 47%;
+	display: inline-block;
+}
+
+.column-2 {
+	padding: 0 0 0 15px;
+	width: 47%;
+	display: inline-block;
+}
+
+.column-3 {
+	padding: 0 10px 0 0;
+	width: 33%;
+	display: inline-block;
+}
+
+.column-4 {
+	padding: 0 5px 0 5px;
+	width: 33%;
+	display: inline-block;
+}
+
+.column-5 {
+	padding: 0 0 0 10px;
+	width: 33%;
+	display: inline-block;
+}
+
+.bottom-content {
+	margin: 40px 0;
+}
+
+.top-content {
+	margin: 40px 0;
+}
+
