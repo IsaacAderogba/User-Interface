@@ -58,7 +58,9 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+	/* font-family: 'Bangers', cursive; */
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
@@ -67,6 +69,7 @@ h1, h2, h3, h4, h5 {
 
 h1 {
 	font-size: 70px;
+	font-family: 'Bangers', cursive;
 }
 
 .hero-text {
@@ -75,8 +78,12 @@ h1 {
 }
 
 .nav {
+	background: lightgreen;
 	color: grey;
 	padding: 20px 40px;
+	position: fixed;
+	top: 0;
+	width: 876px;
 }
 
 body {
@@ -128,6 +135,7 @@ hr {
 	text-align: center;
 }
 
+
 .left-hero {
 	height: 400px;
 	width: 49%;
@@ -138,6 +146,9 @@ hr {
 }
 
 .right-hero {
+	background-image: url(../img/header-img.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
 	height: 400px;
 	width: 49%;
 	display: inline-block;
